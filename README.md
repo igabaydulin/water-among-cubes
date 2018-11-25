@@ -37,4 +37,4 @@ __Sample output:__
 5
 ```
 The picture below shows the mesh after the rain (seen from above). Puddles are drawn in gray.
-![input](https://www.spoj.com/content/piotrek:woda1.gif) ![output](https://www.spoj.com/content/piotrek:woda2.gif)
+![input](https://drive.google.com/file/d/1IL2gQ8XGuQ98eeZGcNS67EWW4r4vCiUt/view?usp=sharing) ![output](https://www.spoj.com/content/piotrek:woda2.gif)
