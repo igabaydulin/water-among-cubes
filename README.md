@@ -37,4 +37,5 @@ __Sample output:__
 5
 ```
 The picture below shows the mesh after the rain (seen from above). Puddles are drawn in gray.
+
 ![input](https://github.com/igabaydulin/water-among-cubes/blob/master/resources/before.jpg) ![output](https://github.com/igabaydulin/water-among-cubes/blob/master/resources/after.jpg)
