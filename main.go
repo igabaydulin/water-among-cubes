@@ -29,12 +29,6 @@ func (h *PriorityQueue) Pop() interface{} {
 	return x
 }
 
-func fillHeap(queue *PriorityQueue, input []int) {
-	for _, v := range input {
-		heap.Push(queue, v)
-	}
-}
-
 func initializeHeap(input [][]float64) *PriorityQueue {
 	priorityQueue := &PriorityQueue{}
 	heap.Init(priorityQueue)
