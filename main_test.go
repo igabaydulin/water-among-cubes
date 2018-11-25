@@ -4,6 +4,58 @@ import (
 	"testing"
 )
 
+func TestFillPoolFromExample(t *testing.T) {
+	input := [][]float64{
+		{3, 3, 4, 4, 4, 2},
+		{3, 1, 3, 2, 1, 4},
+		{7, 3, 1, 6, 4, 1}}
+	expected := 5
+	actual := fillPool(input)
+
+	if expected != actual {
+		t.Fail()
+	}
+}
+
+func TestFillPoolSimple(t *testing.T) {
+	input := [][]float64{
+		{2, 2, 2},
+		{2, 1, 2},
+		{2, 2, 2}}
+	expected := 1
+	actual := fillPool(input)
+
+	if expected != actual {
+		t.Fail()
+	}
+}
+
+func TestFillPoolEmpty(t *testing.T) {
+	input := [][]float64{
+		{2, 2, 2},
+		{2, 2, 2},
+		{2, 2, 2}}
+	expected := 0
+	actual := fillPool(input)
+
+	if expected != actual {
+		t.Fail()
+	}
+}
+
+func TestFillPoolHighGround(t *testing.T) {
+	input := [][]float64{
+		{2, 2, 2},
+		{2, 3, 2},
+		{2, 2, 2}}
+	expected := 0
+	actual := fillPool(input)
+
+	if expected != actual {
+		t.Fail()
+	}
+}
+
 func TestFillPool(t *testing.T) {
 	input := [][]float64{
 		{78, 16, 94, 36},
